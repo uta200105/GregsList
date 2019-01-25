@@ -73,16 +73,21 @@ nav {
     border-radius: 10px;
     padding-left: 10px;
     font-size: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
   }
 
-
-
   .searchBox {
-      margin-left: 20%;
+      margin-left: 15%;
       margin-bottom: 5%;
   }
 
-  .textResults {
+  .titleText, .searchText {
       color: brown;
       font-size: 40px;
+      display: inline;
+  }
+
+  .titleText {
+    margin-left: 20%;
   }
