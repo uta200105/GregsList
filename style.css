@@ -1,0 +1,88 @@
+body {
+    color: black;
+}
+
+nav {
+    background-color: brown;
+    margin-bottom: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    float: right;
+    padding-right: 10%;
+    font-size: 20px;
+  }
+  
+  .logo {
+    height: 60px;
+    width: 180px;
+    border: 4px brown solid; 
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li::after {
+    content: "|";
+    margin-left: 10px;
+    color: white;
+  }
+  
+  nav a:hover {
+    color: black;
+  }
+
+  .card {
+    border: 1px grey solid;
+    margin-bottom: 20px;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .card-image {
+      width: 100%;
+      height: 275px;
+      padding: 5px;
+  }
+
+  .card-content {
+      padding: 10px;
+  }
+
+  .card-content h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .card-content p {
+      margin: 4px 0;
+  }
+
+  input {
+    width: 75%;
+    height: 40px;
+    border: 5px double brown;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+
+
+  .searchBox {
+      margin-left: 20%;
+      margin-bottom: 5%;
+  }
+
+  .textResults {
+      color: brown;
+      font-size: 40px;
+  }

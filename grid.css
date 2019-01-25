@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .pages {
+    max-width: 1000px;
+      padding: 5px;
+      margin: 0 auto;
+  }
+
+  .searchBox {
+    max-width: 1000px;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-left: 15%;
+}
+
+  .row, .searchBox {
+      max-width: 1000px;
+      padding-left: 12%;
+      padding-right: 12%;
+      margin: 0 auto;
+  }
+
+  .row::before,
+  .row::after {
+      display:table;
+      content: '';
+  }
+
+  .row::after {
+      clear: both;
+  }
+
+  .col-2 {
+      float: left;
+      padding-left: 1.04166666%;
+      padding-right: 1.04166666%;
+      width: 100%;
+  }
+
+
+
+  @media only screen and (min-width: 640px) {
+      .col-2 {
+          width: 50%;
+      }
+  }
