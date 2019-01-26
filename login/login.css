@@ -1,0 +1,91 @@
+body {
+    background-color: brown;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    margin-bottom: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: brown;
+  }
+
+  a {
+      color: white;
+  }
+  
+  ul {
+    float: right;
+  }
+
+  .navMenu1, .navMenu2, .navMenu3 {
+      font-size: 20px;
+      padding-right: 7px;
+  }
+  
+  .logo {
+    height: 55px;
+    width: 175px;
+
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a:hover, footer a:hover {
+    color: black;
+  }
+
+.buttonSubmit {
+    background-color: grey;
+    width: 100%;
+    height: 55px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+.buttonFont {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: helvetica;
+}
+
+.topFont {
+    color: darkslategrey;
+    font-family: helvetica;
+    font-size: 35px;
+    margin-left: auto;
+}
+
+footer {
+    color:white;
+    display: block;
+}
+
+.formFont {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5%;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
