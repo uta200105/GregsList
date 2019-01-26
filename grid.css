@@ -90,4 +90,17 @@
         margin-left: 15%;
         width: 65%;
     }
+    .card-image {
+        height: 210px;
+    }
+
+    ul {
+        padding-right: 8%;
+    }
+
+    .navMenu1::after, .navMenu2::after {
+        content: "|";
+        margin-left: 8%;
+        color: white;
+      }
   }
