@@ -61,24 +61,33 @@
 
 
   @media only screen and (min-width: 640px) {
-      .col-2 {
-          width: 33.333%;
+    .col-2 {
+        width: 33.333%;
       }
-      .pages {
-            margin-left: 40%;
+    .pages {
+        margin-left: 40%;
     }
-      .titleText {
-            padding-left: 15%;
+    .titleText {
+        padding-left: 15%;
     }
-      .searchText {
-            padding-left: 1%;
+    .searchText {
+        padding-left: 1%;
     }
-      .dropMenu {
-            margin-left: 20%;
-            margin-bottom: 1%;
-            width: 1%;
+    .dropMenu {
+        margin-left: 20%;
+        margin-bottom: 1%;
+        width: 1%;
     }
-      .searchBox {
-            margin-left: 15%;
+    .searchBox {
+        margin-left: 15%;
+        margin-bottom: 1%;
+    }
+    .search {
+        margin-bottom: 2%;
+        }
+    .searchBar {
+        margin-bottom: 2%;
+        margin-left: 15%;
+        width: 65%;
     }
   }
