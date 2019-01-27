@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: brown;
+    background-color:  rgb(82, 52, 52);
     margin-bottom: 40px;
   }
   
@@ -24,7 +24,7 @@ nav {
   .logo {
     height: 60px;
     width: 175px;
-    border: 4px brown solid;
+    border: 4px  rgb(82, 52, 52) solid;
   }
   
   nav li {
@@ -65,7 +65,7 @@ nav {
   input {
     width: 75%;
     height: 50px;
-    border: 5px double brown;
+    border: 5px double  rgba(0, 0, 0, 0.788);
     border-radius: 10px;
     padding-left: 10px;
     font-size: 20px;
@@ -75,7 +75,7 @@ nav {
   }
 
   .titleText, .searchText {
-      color: brown;
+      color:  rgb(82, 52, 52);
       font-size: 40px;
       display: inline;
   }
@@ -96,7 +96,7 @@ nav {
   }
 
   .drop-content {
-      background-color: rgba(158, 58, 58, 0.945);
+      background-color:  rgb(82, 52, 52, 0.945);
       min-width: 160px;
       position: absolute;
       z-index: 1;

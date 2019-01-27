@@ -34,6 +34,6 @@ footer {
     .navMenu1::after, .navMenu2::after {
         content: "|";
         margin-left: 8%;
-        color: brown;
+        color: rgb(82, 52, 52);
       }
 }

@@ -1,5 +1,7 @@
 body {
-    background-color: brown;
+    background-image: url("https://images.pexels.com/photos/1210484/pexels-photo-1210484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    object-fit: fill;
     color: black;
 }
 
@@ -10,7 +12,7 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: brown;
+    color: rgb(82, 52, 52);
   }
 
   a {
@@ -49,7 +51,7 @@ nav {
 }
 
 button:hover {
-    background-color: brown;
+    background-color: rgb(82, 52, 52);
 }
 
 .buttonFont {
