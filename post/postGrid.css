@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    width: 100%;
+}
+
+.formPost {
+    width: 100%;
+    padding: 2%;
+    margin-top: 0;
+    
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 2%;
+    display: block;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+.buttonSubmit {
+    width: 100%
+}
+
+
+  @media only screen and (min-width: 640px) {
+     
+    .row {
+        width: 50%;
+        float: right;
+        padding-left: 1.04166666%;
+        padding-right: 1.04166666%;
+        
+        max-height: 500px;
+    }
+
+      ul {
+        padding-right: 8%;
+    }
+
+    .navMenu1::after, .navMenu2::after {
+        content: "|";
+        margin-left: 8%;
+        color: rgb(82, 52, 52);
+      }
+
+
+      input, textarea, .buttonFont {
+          height: 15px;   
+      }
+
+      .textarea {
+          height: 1%;
+      }
+
+      p.formTitle {
+          margin-bottom: 0;
+          margin-top: 0;
+          visibility: hidden;
+          font-size: 2px;
+      }
+
+      .wrapper {
+          width: 90%;
+      }
+
+      .email {
+          margin-bottom: 5%;
+          font-size: 22px;
+
+      }
+
+      .buttonSubmit {
+          width: 75%;
+          margin-left: 15%
+      }
+
+
+
+    
+
+     
+  }

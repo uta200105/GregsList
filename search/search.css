@@ -1,16 +1,15 @@
 body {
     color: black;
-    background-color: rgb(82, 52, 52);
 }
 
 nav {
-    background-color: white;
+    background-color:  rgb(82, 52, 52);
     margin-bottom: 40px;
   }
   
   a {
     text-decoration: none;
-    color: brown;
+    color: white;
   }
   
   ul {
@@ -25,6 +24,11 @@ nav {
   .logo {
     height: 60px;
     width: 175px;
+    border: 4px  rgb(82, 52, 52) solid;
+  }
+
+  .logo:hover {
+    opacity: 0.7;
   }
   
   nav li {
@@ -35,8 +39,84 @@ nav {
     color: black;
   }
 
-  video {
-      opacity: 0.3;
-      object-fit: fill;
+  .card {
+    border: 1px grey solid;
+    margin-bottom: 20px;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .card-image {
+      width: 100%;
+      padding: 5px;
+  }
+
+  .card-content {
+      padding: 10px;
+  }
+
+  .card-content h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .card-content p {
+      margin: 4px 0;
+  }
+
+  input {
+    width: 75%;
+    height: 50px;
+    border: 5px double  rgba(0, 0, 0, 0.788);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+
+  .titleText, .searchText {
+      color:  rgb(82, 52, 52);
+      font-size: 40px;
+      display: inline;
+  }
+
+  .dropButton {
+      color: rgba(0, 0, 0, 0.788);
+      font-weight: bold;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: 3px rgba(0, 0, 0, 0.788) solid;
+      background-color: transparent;
+  }
+
+  .dropMenu {
+      position: relative;
+      display: inline-block;
+  }
+
+  .drop-content {
+      background-color:  rgb(82, 52, 52, 0.945);
+      min-width: 160px;
+      position: absolute;
+      z-index: 1;
+      display: none;
+      box-shadow: 5px 10px rgba(0, 0, 0, 0.788);
+      
+  }
+
+  .drop-content a {
+      padding: 12px 16px;
+      display: block;
+      text-decoration: none;
+  }
+
+  .dropMenu:hover .drop-content {
+      display: block;
+      
   }
 

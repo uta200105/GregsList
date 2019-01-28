@@ -19,12 +19,18 @@ footer {
         width: 22%;
         margin-top: 4%;
         margin-bottom: 1%;
+        margin-left: 69%;
         padding: 3%;
         padding-top: 1%;
+        display: fixed;
     }
 
     footer {
-        margin-left: 39%;
+        margin-left: 72%;
+    }
+
+    .footer {
+        color: red;
     }
 
     ul {

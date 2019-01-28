@@ -1,13 +1,11 @@
 body {
-    background-image: url("https://images.pexels.com/photos/859895/pexels-photo-859895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-repeat: no-repeat;
-    object-fit: fill;
     color: black;
+    
 }
 
 nav {
     background-color: white;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   
   nav a {
@@ -45,53 +43,48 @@ nav {
     color: black;
   }
 
-.buttonSubmit {
-    background-color: grey;
-    width: 100%;
-    height: 55px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-button:hover {
+  button:hover {
     background-color: rgb(82, 52, 52);
 }
 
-.buttonFont {
+  button {
+      background-color: brown;
+      border-radius: 5%;
+      border: 1px solid grey;
+  }
+
+  .buttonFont {
     color: white;
     font-size: 20px;
     margin-top: 15px;
     font-family: helvetica;
+    
 }
 
-.topFont {
+  .formTitle {
     color: darkslategrey;
     font-family: helvetica;
     font-size: 35px;
     margin-left: auto;
-}
+    margin-top: 0;
+  }
 
-footer {
-    color:white;
-    display: block;
-    font-weight: bold;
-}
+  .formFont {
+      padding-right: 15%;
+      padding-left: 5%;
+      font-size: 20px;
+      color: darkslategrey;
+      font-family: helvetica;
+      margin-left: auto;
+  }
 
-.formFont {
-    color: black;
-    font-weight: bold;
-}
+  input, .textarea {
+      width: 100%;  
+      margin: 2%;
+      padding: 3%;
+      font-size: 20px;
+      border-radius: 5px;
+  }
 
-.container {
-    background-color: white;
-    border-radius: 5%;
-}
 
-input {
-    width: 100%;
-    height: 45px;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GregsList</title>
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./postGrid.css" />
+  <link rel="stylesheet" href="./post.css" />
+</head>
+<body>
+    <nav role="navigation" id="navbar">
+        <a href="../index.html">
+        <img src="../images/GregsList.jpg" class="logo" alt="logo">
+        </a>
+
+        <ul>
+            <li><a class="navMenu1" href="../login/login.html">Login</a></li>
+            <li><a class="navMenu2" href="../search/search.html">Search</a></li>
+            <li><a class="navMenu3" href="./post.html">Post</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <main role="main" class="wrapper">
+            <form formaction="/form/" method="get" class="formPost">
+                    <p class="formTitle">Post Information</p>
+                        <label for="email" class="formFont">Email Address</label>
+                            <input type="email" class="email" placeholder="abc123@abc.com" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+                        <label for="title" class="formFont">Title of Post</label>
+                            <input type="title" class="title" placeholder="My Awesome Item" required>
+                        <label for="price" class="formFont">Price of Item</label>
+                            <input type="price" class="price" placeholder="$" required>
+                        <label for="location" class="formFont">Zip Code</label>
+                            <input type="location" class="location" placeholder="55555" required>
+                        <label for="textarea" class="formFont">Item Description</label>
+                            <textarea type="text" rows="2" cols="40" class="textarea" placeholder="Enter Description Here..." required></textarea>      
+                        <button type="submit" formaction="/signup/" class="buttonSubmit">
+                            <p class="buttonFont">Submit</p>
+                        </button>         
+            </form>
+        </main>
+    </div>
+    <div class="row">
+        <img class="image" src="https://images.pexels.com/photos/575435/pexels-photo-575435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="travel bags">
+    </div>
+</body>
+</html>
