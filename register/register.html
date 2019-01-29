@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GregsList</title>
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./registerGrid.css" />
+  <link rel="stylesheet" href="./register.css" />
+</head>
+<body>
+    <nav role="navigation" id="navbar">
+        <a href="../index.html">
+        <img src="../images/GregsList.jpg" class="logo" alt="logo">
+        </a>
+
+        <ul>
+            <li><a class="navMenu1" href="../login/login.html">Login</a></li>
+            <li><a class="navMenu2" href="../search/search.html">Search</a></li>
+            <li><a class="navMenu3" href="../post/post.html">Post</a></li>
+        </ul>
+    </nav>
+
+    <main role="main" class="container">
+        <p class="topFont">Register</p>
+        <form formaction="/signup/" method="get">
+            <label for="email" class="formFont">Email</label>
+                <input type="email" class="email" placeholder="abc123@abc.com" required pattern="[a-z0-9._%+-]+@[a-z0-9]+[a-z]{2,}$"> 
+            <label for="password" class="formFont">Password</label>
+                <input type="password" class="password" placeholder="wxyz789" required>
+            <button type="submit" formaction="/signup/" class="buttonSubmit">
+                <p class="buttonFont">Submit</p>
+            </button>
+        </form>
+    </main>
+    <footer role="footer" class="footer">Don't yet have an account?
+        <a href="./register.html">Register Here</a>
+    </footer>
+</body>
+</html>
