@@ -60,7 +60,7 @@
 
 
 
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 900px) {
     .col-2 {
         width: 33.333%;
       }
@@ -103,4 +103,62 @@
         margin-left: 8%;
         color: white;
       }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    .col-2 {
+      width: 50%;
+    }
+
+    .row {
+      margin: 5%;
+    }
+    .pages {
+        margin-left: 40%;
+    }
+    .titleText {
+        padding-left: 9%;
+    }
+
+  .searchText {
+        padding-left: 1%;
+    }
+
+  .card-image {
+    height: 235px;
+    }
+
+  .dropMenu {
+    margin-left: 18%;
+    margin-bottom: 1%;
+    width: 1%;
+    }
+
+    .searchBox {
+      margin-left: 15%;
+      margin-bottom: 1%;
+  }
+  .search {
+      margin-bottom: 2%;
+      }
+  .searchBar {
+      margin-bottom: 2%;
+      margin-left: 15%;
+      width: 65%;
+  }
+  .card-image {
+      height: 210px;
+  }
+
+  ul {
+      padding-right: 8%;
+  }
+
+  .navMenu1::after, .navMenu2::after {
+      content: "|";
+      margin-left: 8%;
+      color: white;
+    }
+    
+    
   }
