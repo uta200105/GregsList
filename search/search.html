@@ -18,22 +18,34 @@
   <link rel="stylesheet" href="./search.css" />
 </head>
 <body>
+    
+<!--NavBar-->
     <nav role="navigation" id="navbar">
+<!--Logo-->
         <a href="../index.html">
         <img src="../images/GregsList.jpg" alt="logo" class="logo">
         </a>
-        <ul>
+<!--Search Box-->
+        <div class="searchBox">
+        <input class="searchBar" placeholder="Search">
+        </div>
+    <!--Navigation-->
+        <ul class="list">
             <li><a class="navMenu1" href="../login/login.html">Login</a></li>
-            <li><a class="navMenu2" href="./search.html">Search</a></li>
             <li><a class="navMenu3" href="../post/post.html">Post</a></li>
         </ul>
     </nav>
 
-    <div class="searchBox">
-        <input class="searchBar" placeholder="Search">
+<!--Menu-->
+   <div class="container" role="container">
+      <section class="wrapper">
+          <div class="row">
+            <div class="side-content-sm"></div>
+              <div class="main-content-lg">
 
-    <div class="dropMenu">
-        <button class="dropButton">Shoes</button>
+
+     <div class="dropMenu">
+        <button class="dropButton">WOMEN</button>
         <div class="drop-content">
         <a href="/heels/">Heels</a>
         <a href="/flats/">Flats</a>
@@ -42,7 +54,7 @@
     </div>
 
     <div class="dropMenu">
-        <button class="dropButton">Clothes</button>
+        <button class="dropButton">MEN</button>
         <div class="drop-content">
         <a href="/heels/">Tops</a>
         <a href="/flats/">Pants</a>
@@ -51,20 +63,51 @@
     </div>
 
     <div class="dropMenu">
-        <button class="dropButton">Accessories</button>
+        <button class="dropButton">KIDS</button>
         <div class="drop-content">
         <a href="/heels/">Jewerly</a>
         <a href="/flats/">Sunglasses</a>
         <a href="/fitness/">Scarfs</a>
         </div>
     </div>
-    </div>
-    <div class="search">
-            <p class="titleText">Search Results:</p>
-            <p class="searchText">Heels</p>
+
+    <div class="dropMenu">
+            <button class="dropButton">SHOES</button>
+            <div class="drop-content">
+            <a href="/heels/">Heels</a>
+            <a href="/flats/">Flats</a>
+            <a href="/fitness/">Fitness</a>
+            </div>
+        </div>
+
+    <div class="dropMenu">
+        <button class="dropButton">JEANS</button>
+        <div class="drop-content">
+        <a href="/heels/">Heels</a>
+        <a href="/flats/">Flats</a>
+        <a href="/fitness/">Fitness</a>
+        </div>
     </div>
 
-    <div class="row">
+    <div class="dropMenu">
+        <button class="dropButton">ACCESSORIES</button>
+        <div class="drop-content">
+        <a href="/heels/">Heels</a>
+        <a href="/flats/">Flats</a>
+        <a href="/fitness/">Fitness</a>
+        </div>
+    </div>
+
+    </div>
+    <div class="side-content-sm"></div>
+    </div>
+    </section>
+
+<!--Cards-->
+    <section class="wrapper1">
+          <div class="row">
+            <div class="side-content-sm"></div>
+              <div class="main-content-lg">
      
         <div class="col-2">
             <div class="card">
@@ -126,6 +169,9 @@
                 </div>
             </div>
     </div>
+    <div class="side-content-sm"></div>
+    </div>
+    </section>
 
     <br>
     <div class="pages">
@@ -134,6 +180,6 @@
         <a href="next.html" class="pages-button">next &gt;</a>
     </div>
         
-    
+</div>    
 </body>
 </html>

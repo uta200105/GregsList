@@ -9,14 +9,6 @@
     margin-left: 25%;
   }
 
-  .searchBox {
-    max-width: 1000px;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-}
-
   .row {
     max-width: 1000px;
     padding-left: 1%;
@@ -26,14 +18,6 @@
 
   .search {
     margin-bottom: 5%;
-  }
-
-  .searchText {
-    padding-left: 40%;
-  }
-
-  .titleText {
-    margin-left: 20%;
   }
 
   .row::before,
@@ -54,11 +38,17 @@
   }
 
   .dropMenu {
-    margin-left: 6%;
-    margin-bottom: 10%;
+    margin-left: 8%;
   }
 
-
+  #navbar {
+      border-radius: 5px;
+      width: 100%; 
+      flex: 0 1 100%;
+      flex-wrap: nowrap;
+      display: flex;
+  }
+  
 
   @media only screen and (min-width: 900px) {
     .col-2 {
@@ -67,35 +57,20 @@
     .pages {
         margin-left: 40%;
     }
-    .titleText {
-        padding-left: 15%;
-    }
-    .searchText {
-        padding-left: 1%;
-    }
     .dropMenu {
-        margin-left: 20%;
-        margin-bottom: 1%;
+        margin-left: 10%;
         width: 1%;
     }
-    .searchBox {
-        margin-left: 15%;
-        margin-bottom: 1%;
-    }
+    
     .search {
         margin-bottom: 2%;
         }
     .searchBar {
         margin-bottom: 2%;
-        margin-left: 15%;
-        width: 65%;
+        width: 50%;
     }
     .card-image {
         height: 210px;
-    }
-
-    ul {
-        padding-right: 8%;
     }
 
     .navMenu1::after, .navMenu2::after {
@@ -115,13 +90,6 @@
     }
     .pages {
         margin-left: 40%;
-    }
-    .titleText {
-        padding-left: 9%;
-    }
-
-  .searchText {
-        padding-left: 1%;
     }
 
   .card-image {
@@ -148,10 +116,6 @@
   }
   .card-image {
       height: 210px;
-  }
-
-  ul {
-      padding-right: 8%;
   }
 
   .navMenu1::after, .navMenu2::after {
